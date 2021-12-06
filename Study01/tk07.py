@@ -15,4 +15,5 @@ l = Label(window, text="이 레이블은 버튼들 위에 배치된다.")
 l.pack()
 f.pack()
 
+window.resizable(0, 0) # 크기조정불가
 window.mainloop()
