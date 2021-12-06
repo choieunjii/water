@@ -1,6 +1,7 @@
 from tkinter import *
 window = Tk()
 f = Frame(window)
+window.geometry("600x100")
 
 b1 = Button(f, text="박스 #1", bg="red", fg="white")
 b2 = Button(f, text="박스 #2", bg="green", fg="black")
